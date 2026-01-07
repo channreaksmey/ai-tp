@@ -1,0 +1,65 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.python-version
+
+# Build and packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs, caches, coverage
+*.log
+.cache/
+.mypy_cache/
+.pytest_cache/
+.tox/
+.pyre/
+.pytype/
+coverage/
+htmlcov/
+coverage.xml
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Datasets and artifacts
+data/
+datasets/
+cnn/cifar-10-batches-py/
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Model outputs
+checkpoints/
+runs/
+logs/
+outputs/
+*.pt
+*.pth
